@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to top, #33ccff 36%, #0099cc 100%);
+}
+
+.form_main {
+    width: 70%;
+    margin: auto;
+}
+.form_main h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #444444;
+    margin-bottom: 15px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.form {
+    border-radius: 7px;
+    padding: 6px;
+}
+.txt[type="text"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+
+.txt2[type="submit"] {
+    background: #242424 none repeat scroll 0 0;
+    display: block;
+    border: 1px solid #4f5c04;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 50px auto;
+    padding: 0;
+    text-transform: uppercase;
+    width: 50%;
+}
+.txt2:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #5793ef;
+    transition: all 0.5s ease 0s;
+}

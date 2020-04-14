@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <title>Single Page Application</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+            <div class="form_main">
+                    <h4 class="text-center"><strong>COVID-19 </strong> estimator</h4>
+                    <div class="form">
+                    <form  id="contactFrm" name="contactFrm">
+                        <input type="text" required="" placeholder="population" name="data-population" class="txt">
+                        <input type="text" required="" placeholder="time To Elapse" name="data-time-to-elapse" class="txt">
+                        <input type="text" required="" placeholder="reported Cases" name="data-reported-cases" class="txt">
+                        <input type="text" required="" placeholder="total Hospital Beds" name="data-total-hospital-beds" class="txt">
+                        <select name = "periodType" class="txt">
+                            <option>Days</option>
+                            <option value="3">3</option>
+                            <option value="6">6</option>
+                            <option value="9">9</option>
+                            <option value="12">12</option>
+                            <option value="15">15</option>
+                            <option value="18">18</option>
+                            <option value="21">21</option>
+                            <option value="24">24</option>
+                            <option value="27">27</option>
+                            <option value="30">30</option>
+                            <option >Weeks</option>
+                            <option >Months</option>
+                         </select>
+                        
+                        
+                         
+                         <input type="submit" name="data-go-
+                         estimate" class="txt2">
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./src/estimator.js"></script>
+  </body>
+</html>
